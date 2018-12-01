@@ -18,34 +18,37 @@ p
 
 img
 { border: 0;}
-
+p, a
+{
+color:#ffffff;	
+}
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #111;
+  color: #00e600;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #444;}
+  color: #00e600;}
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #555;}
+  color: #00e600;}
 
 h5, h6
 { font: italic 95% arial, sans-serif;
   padding: 0 0 15px 0;
-  color: #000;}
+  color: #008000;}
 
 h6
-{ color: #888;}
+{ color: #00e600;}
 
 a, a:hover
 { outline: none;
-  color: #111;
+  color: #0000ff;
   text-decoration: underline;}
 
 a:hover
@@ -149,12 +152,12 @@ ul#menu li a
 
 ul#menu li.selected a
 { height: 25px;
-  color: #111;
+  color: #ffffff;
   padding: 7px 22px 5px 16px;}
 
 ul#menu li.selected
 { margin: 7px 0 0 0;
-  background: #F8F8F8;}
+  background: #000000;}
 
 ul#menu li a:hover
 { color: #888;}
@@ -162,7 +165,7 @@ ul#menu li a:hover
 #site_content
 { width: 890px;
   overflow: hidden;
-  background: #F8F8F8;} 
+  background: #000000;} 
 
 .sidebar
 { float: right;
