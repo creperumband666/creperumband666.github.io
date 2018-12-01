@@ -8,7 +8,9 @@ html
 body
 { font: normal .78em arial, sans-serif;
   background: #444;
-  color: #555;}
+  color: #000000;
+  background: url(background.jpg) no-repeat;
+  }
 
 p
 { padding: 0 0 16px 0;
@@ -53,7 +55,7 @@ blockquote
 { margin: 20px 0 20px 0; 
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
-  background: #F5F5F1;}
+  background: #000000;}
 
 ul
 { margin: 2px 0 22px 17px;}
@@ -114,12 +116,13 @@ ol li
 
 #menubar
 { width: 890px;
-  height: 45px;
+  height: 35px;
   padding: 8px 0 0 0;
   margin: -45px 0 0 0;
   position: relative;
   z-index: 1;
-  float: right;} 
+  float: right;
+  background-color:black} 
 
 ul#menu
 { float: right;
